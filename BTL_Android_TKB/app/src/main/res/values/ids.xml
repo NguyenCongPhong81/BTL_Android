@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="them" type="id" />
+    <item name="huy" type="id" />
+    <item name="baothuc_khong" type="id" />
+</resources>

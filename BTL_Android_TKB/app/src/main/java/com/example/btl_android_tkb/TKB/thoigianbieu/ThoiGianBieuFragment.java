@@ -21,6 +21,8 @@ import android.widget.TimePicker;
 import com.example.btl_android_tkb.R;
 import com.example.btl_android_tkb.databinding.FragmentThoiGianBieuBinding;
 import com.example.btl_android_tkb.TKB.acti.ThoiGianBieuDataBase;
+import com.example.btl_nhom2_tkb.R;
+import com.example.btl_nhom2_tkb.databinding.FragmentThoiGianBieuBinding;
 
 import java.util.ArrayList;
 import java.util.Calendar;

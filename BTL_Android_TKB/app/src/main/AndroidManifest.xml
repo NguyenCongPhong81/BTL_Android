@@ -9,10 +9,10 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.BTL_Android_TKB"
+        android:theme="@style/Theme.BTL_Nhom2_TKB"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".Login.DangNhapActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,6 +20,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".GhiChu.GhiChuActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".TKB.acti.ThoiKhoaBieuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login.DangKyActivity" />
+        <activity
+            android:name=".Login.QuenPass" />
     </application>
 
 </manifest>

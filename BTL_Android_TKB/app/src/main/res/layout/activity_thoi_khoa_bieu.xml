@@ -19,9 +19,7 @@
         android:background="#F86806"
         app:itemIconTint="@color/navi_main"
         app:itemTextColor="@color/navi_main"
-        />
-<!--        app:menu="@menu/menu_thoi_gian_bieu"-->
-
+        app:menu="@menu/menu_thoi_gian_bieu" />
 
 
 

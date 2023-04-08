@@ -1,5 +1,6 @@
 package com.example.btl_android_tkb;
 
+import androidx.appcompat.R;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
@@ -25,7 +26,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.JsonRequest;
-import com.example.btl_android_tkb.R;
+import com.example.btl_android_tkb.GhiChu.GhiChuActivity;
 import com.example.btl_android_tkb.sup.data.Config;
 import com.example.btl_android_tkb.sup.data.JsonVolley;
 import com.example.btl_android_tkb.sup.network.CheckNetwork;
@@ -38,6 +39,7 @@ import com.example.btl_android_tkb.TKB.acti.ThoiKhoaBieuActivity;
 import com.example.btl_android_tkb.TKB.sukien.UTLSuKien;
 import com.example.btl_android_tkb.TKB.thoigianbieu.UTLThoiKhoaBieu;
 import com.example.btl_android_tkb.MainActivity2;
+import com.example.btl_nhom2_tkb.databinding.ActivityMainBinding;
 import com.google.gson.JsonObject;
 import com.squareup.picasso.Picasso;
 
@@ -49,6 +51,8 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 import java.util.Locale;
+
+import kotlin.jvm.internal.Ref;
 
 
 public class MainActivity extends AppCompatActivity {
